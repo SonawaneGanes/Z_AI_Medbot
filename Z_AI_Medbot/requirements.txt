@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic
+scikit-learn
+numpy
+pillow
+pytesseract
+pdf2image
+python-dotenv
+requests
+openai
+pytest
+pytest-asyncio  

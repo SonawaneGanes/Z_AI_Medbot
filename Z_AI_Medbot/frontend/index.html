@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>AI MedBot</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app" class="light">
+    <header>
+      <h1>AI MedBot</h1>
+      <div class="controls">
+        <button id="themeToggle">Dark</button>
+      </div>
+    </header>
+
+    <main>
+      <div id="chat">
+        <div id="messages"></div>
+        <div id="typingIndicator" class="hidden">AI is typing…</div>
+      </div>
+
+      <div id="composer">
+        <div class="file-row">
+          <input type="file" id="reportFile" />
+          <button id="uploadBtn">Upload & Extract</button>
+        </div>
+
+        <div class="input-row">
+          <button id="micBtn" title="Record (speech-to-text)">🎤</button>
+          <textarea id="messageInput" placeholder="Describe symptoms or ask a question..."></textarea>
+          <button id="sendBtn">Send</button>
+          <button id="speakBtn" title="Play bot reply">🔊</button>
+        </div>
+      </div>
+
+      <footer>
+        <small>Always educational — No diagnosis. Use for informational purposes only.</small>
+      </footer>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

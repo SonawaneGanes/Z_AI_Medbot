@@ -1,0 +1,18 @@
+[
+  {
+    "question": "What are common causes of a headache?",
+    "answer": "Common causes include tension, stress, dehydration, lack of sleep, and sometimes infections. If severe, new, or sudden, seek medical care."
+  },
+  {
+    "question": "What is hypertension?",
+    "answer": "Hypertension is high blood pressure. It means the force of blood against arteries is consistently too high, which over time may increase risk of heart disease."
+  },
+  {
+    "question": "How to manage a low-grade fever at home?",
+    "answer": "Stay hydrated, rest, monitor symptoms, use fever-reducing measures such as paracetamol per local dosing guidance. See a doctor if fever persists or if there are warning signs."
+  },
+  {
+    "question": "What is a CBC test?",
+    "answer": "CBC (complete blood count) checks the levels of red/white blood cells and platelets; it's commonly used to screen for infections, anemia, and other blood disorders."
+  }
+]
